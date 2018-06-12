@@ -7,6 +7,7 @@ func main() {
 	fmt.Println(s)
 }
 
+//字符串翻转
 func rever(str string)string{
 	runes := []rune(str)
 	l := len(runes) / 2
