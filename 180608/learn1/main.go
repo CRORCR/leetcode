@@ -14,6 +14,7 @@ func main() {
 	fmt.Println(end-start)
 }
 
+//
 //我考虑的是strings包下有一个count计数的函数,可以拿到J的每个字符去统计
 func numJewelsInStones(J string, S string) int {
 	var count int
